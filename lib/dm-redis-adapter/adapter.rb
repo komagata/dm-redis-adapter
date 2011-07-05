@@ -6,6 +6,7 @@ module DataMapper
   module Adapters
     class RedisAdapter < AbstractAdapter
       def aggregate(resource)
+        []
       end
       ##
       # Used by DataMapper to put records into the redis data-store: "INSERT" in SQL-speak.
