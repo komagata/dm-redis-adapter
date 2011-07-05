@@ -5,7 +5,7 @@ require 'base64'
 module DataMapper
   module Adapters
     class RedisAdapter < AbstractAdapter
-      def aggregate
+      def aggregate(resource)
       end
       ##
       # Used by DataMapper to put records into the redis data-store: "INSERT" in SQL-speak.
